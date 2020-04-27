@@ -27,7 +27,7 @@ blocks:
           - kubectl get nodes
           - kubectl get pods
 
-          # Our deployment.yml instructs Kubernetes to pull container image
+          # Our deployment.yml instructs Kubernetes to pull container image yaa...
           # named $DOCKER_USERNAME/semaphore-demo-ruby-kubernetes:$SEMAPHORE_WORKFLOW_ID
           #
           # envsubst is a tool which will replace $SEMAPHORE_WORKFLOW_ID with
